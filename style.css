@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1440px;
+  height: 773px;
+  margin-inline: auto;
+  position: relative;
+  background-image: url(./img/HeroImage.png);
+}
+header {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 35px;
+  width: 101px;
+}
+nav {
+  display: flex;
+  gap: 24px;
+}
+nav a {
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.language {
+  width: 40px;
+  height: 40px;
+  border-radius: 99999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+section {
+  color: white;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  text-align: center;
+  font-family: "Oswald", serif;
+}
+.text1 {
+  font-size: 40px;
+}
+.text2 {
+  font-size: 125px;
+}
+.text3 {
+  font-size: 32px;
+}
+.body {
+  height: 500px;
+  width: 1440px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/Location\ image.png");
+}
+
+article {
+  width: 1202px;
+  height: 370px;
+
+  display: flex;
+  gap: 25px;
+}
+.img1 {
+  background-image: url("/img/Hover\ card\ image\ \(5\).png");
+}
+
+.img2 {
+  background-image: url(/img/Untitled.png);
+}
+.img3 {
+  background-image: url("/img/Hover\ card\ image\ .png");
+}
+.img4 {
+  background-image: url(/img/Hover\ card\ image.png);
+}
+.loc1 {
+  background-size: cover;
+  height: 370px;
+  width: 275px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+.l1 {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  z-index: 10;
+}
+
+.l11 {
+  background-color: black;
+  height: 370px;
+  width: 275px;
+  inset: 0;
+  position: absolute;
+  opacity: 0;
+  border-radius: 40px;
+}
+.loc1:hover .l11 {
+  opacity: 0.2;
+}
+.maps {
+  height: 1220px;
+  width: 1440px;
+  background-color: aqua;
+  margin-inline: auto;
+}
+.zurag {
+  height: 640px;
+  width: 1200px;
+  background-color: blue;
+}
+.map1 {
+  width: 340px;
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 999px;
+  background-color: black;
+}
+.zurag1 {
+  display: none;
+}
+.l44 {
+  color: white;
+}
